@@ -1,0 +1,102 @@
+.in5{
+  margin-left: 19px;
+}
+
+.infoBlock{
+  margin-top: 30px;
+}
+
+.infoBlock{
+  margin:auto;
+}
+
+.block img{
+  float: inherit;
+}
+
+.block form{
+  float: inherit;
+}
+
+.clubName{
+  width: 100%;
+  max-width: 200px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 200px;
+}
+
+.description{
+  height: 150px;
+}
+
+.block{
+  height: 600px;
+}
+
+.memberRole {
+  margin-left: 160px;
+}
+
+.memberRole h2 {
+  text-align: left;
+  padding-bottom: 20px;
+  margin-left: 30px;
+}
+
+.memberRole .infoBlock form p{
+  margin-left: 50px;
+  padding-bottom: 30px;
+}
+
+.memberRole .in3 {
+  margin-left: 350px;
+}
+
+.memberRole .block{
+  padding: 10px 100px;
+}
+
+.block h1 {
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+@media (min-width: 360px) {
+    body { background-color: ; }
+    .clubName{
+      max-width: 300px;
+    }
+
+    textarea {
+      max-width: 300px;
+    }
+}
+
+@media (min-width: 566px) {
+    body { background-color: ; }
+    .clubName{
+      max-width: 500px;
+    }
+
+    textarea {
+      max-width: 500px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body { background-color: ; }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body { background-color: ; }
+}

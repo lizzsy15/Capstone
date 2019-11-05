@@ -1,0 +1,33 @@
+article textarea{
+ height: 15px;
+}
+
+.formContent{
+  height: 100%;
+  min-height: 50px;
+  width: 500px;
+}
+
+article p{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 100px;
+}
+
+article input{
+  min-width: 100px;
+  width: 500px;
+}
+
+form{
+  height: 100%;
+}
+
+form a{
+  margin-bottom: 10px;
+}
+
+button{
+ margin-bottom: 10px;
+}

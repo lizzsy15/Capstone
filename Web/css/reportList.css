@@ -1,0 +1,79 @@
+.block{
+  height: 100%;
+  padding: 10px 0px;
+}
+
+.container{
+  height: 100%;
+}
+
+table td{
+  width: 100px;
+  height: 100%;
+  text-align: left;
+}
+
+.detail{
+  width: 200px;
+  text-align: left;
+}
+
+h2 {
+    margin-top: 5px;
+    text-align: left;
+    padding-bottom: 0;
+    margin-left: 30px;
+}
+
+table{
+  font-size: 12px;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.infoBlock form a {
+    margin-left: 0px;
+}
+
+@media (min-width: 367px) {
+    body { background-color: ; }
+
+}
+
+@media (min-width: 576px) {
+    body { background-color: ; }
+    table{
+      font-size: 15px;
+    }
+
+    h2 {
+        margin-top: 15px;
+        text-align: left;
+        padding-bottom: 20px;
+        margin-left: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body { background-color: ; }
+    table{
+      font-size: 18px;
+    }
+    .block{
+      height: 100%;
+      padding: 10px 50px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body { background-color: ; }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body { background-color: ; }
+}

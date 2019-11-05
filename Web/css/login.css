@@ -1,0 +1,29 @@
+.signUpBox form {
+  margin: auto;
+  align-content: center;
+  padding: 15px 0 20px 25px;
+}
+
+.signUpBox form p {
+  font-size: 20px;
+}
+
+.signUpBox form input{
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+input {
+}
+
+.signUpBox form button{
+  margin-top: 20px;
+}
+
+.signUpBox form .firstbt{
+  margin-top: 70px;
+}
+
+.signUpBox h2{
+  padding-top: 30px;
+}

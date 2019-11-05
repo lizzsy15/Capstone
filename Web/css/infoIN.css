@@ -1,0 +1,91 @@
+.block {
+  margin: auto;
+  max-width: 1050px;
+  height: 600px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.block img{
+  height: 170px;
+  width: 170px;
+  margin: 20px 30px;
+  margin-left: 50px;
+  float: left;
+}
+
+.block form{
+  margin: 10px 0;
+  float: left;
+}
+
+.block button{
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  background-color: #67AECA;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.block .uploadImage{
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  background-color: #67AECA;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.infoBlock form{
+  margin-top: 10px;
+  width: 600px;
+}
+
+.infoBlock form p{
+  text-align: left;
+  padding-left: 0px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.infoBlock form input{
+  width: 420px;
+}
+
+.infoBlock button {
+  margin-top: 10px;
+  margin-right: 20px;
+  background-color: #67AECA;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.in1{
+  margin-left: 19px;
+}
+
+.in2{
+  margin-left: 39px;
+}
+
+.in3{
+  margin-left: 37px;
+}
+
+.in4{
+  margin-left: 55px;
+}
+
+.in5{
+  margin-left: 10px;
+}
+
+.description{
+  height: 50px;
+  rows:2;
+}

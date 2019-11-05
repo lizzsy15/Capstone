@@ -1,0 +1,23 @@
+.signUpBox form {
+  margin: 0 auto;
+  width: 400px;
+  padding-top: 0px;
+}
+
+.subject{
+  width: 320px;
+}
+
+.large {
+  width: 400px;
+  height: 200px;
+}
+
+.signUpBox form button {
+  margin-left: 80px;
+}
+
+.block {
+  background-color : white;
+  border: 1px solid white;
+}

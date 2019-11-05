@@ -1,0 +1,273 @@
+h1{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+
+.profileBlock{
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  height: 100%;
+  margin-bottom: 10px;
+  flex: 2 0;
+  border-radius: 10px;
+  padding: 15px 0;
+}
+
+.profileBlock .row{
+  background: white;
+  display: flex;
+}
+
+.profileBlock img{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.profileBlock h1{
+margin-left: 0;
+}
+
+.userIcon{
+  padding: 50px 50px;
+  flex: 1 0;
+}
+
+.userDetail{
+  text-align: left;
+  flex: 3 0;
+}
+
+.description {
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.clubsBlock{
+  min-width: 300px;
+  text-align: left;
+  margin-left: 10px;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  min-height: 280px;
+  height: 100%;
+  flex: 1 0;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.clubdetail{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  background: white;
+  margin: 0;
+}
+.clubsBlock .clubdetail img{
+  display: none;
+  width: 30px;
+  height: 30px;
+  margin: 10px 20px 10px 20px;
+  padding: 0 auto;
+}
+
+.clubsBlock .clubdetail h3{
+  margin-left: 20px;
+}
+
+
+
+.listRow{
+  display:flex;
+  padding-left: 0;
+}
+
+.listRow a{
+  margin-left: 10px;
+}
+
+.board{
+  flex: 1 0;
+}
+
+.title{
+  flex: 1 0;
+}
+
+.favoriteBlock{
+  min-width: 300px;
+  margin-top: 10px;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  height: 100%;
+  min-height: 400px;
+  flex:1 0;
+  text-align: left;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.favoriteDetail{
+  background: white;
+  padding: 10px;
+}
+.favoriteBlock .favoriteDetail ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.favoriteBlock .favoriteDetail ul li{
+  max-height: 20px;
+  border-bottom : 1px dashed black;
+  margin-bottom: 10px;
+}
+
+.postBlock{
+  min-width: 300px;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  height: 100%;
+  min-height: 400px;
+  margin: 10px 10px;
+  flex:1 0;
+  text-align: left;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.postDetail{
+  background: white;
+  padding: 10px;
+}
+.postBlock .postDetail ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.postBlock .postDetail ul li{
+  max-height: 20px;
+  border-bottom : 1px dashed black;
+  margin-bottom: 10px;
+}
+
+.friendBlock{
+  text-align: left;
+  min-width: 300px;
+  min-height: 250px;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 0;
+  flex: 1 0;
+  border-radius: 10px;
+}
+
+.innerFriendBlock{
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.innerFriendBlock .row{
+  min-width: 150px;
+  margin: 10px 10px;
+}
+.friendBlock img{
+  width: 30px;
+  height: 30px;
+  margin: 10px 0 0 20px;
+  padding: 0 auto;
+}
+
+.socialMediaBlock{
+  text-align: left;
+  min-width: 300px;
+  max-width: 400px;
+  margin-top: 10px;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  flex: 1 0;
+  border-radius: 10px;
+  padding: 0 0 10px 0;
+}
+.socialMediaDetail{
+  text-align: center;
+  background: white;
+  padding: 50px 0;
+  height: 78%;
+}
+
+.socialMediaBlock .socialMediaDetail i{
+  font-size: 70px;
+  margin: 10px 20px;
+  background: -webkit-linear-gradient(#67AECA, #675682);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.socialMediaBlock .socialMediaDetail i:hover{
+  background: -webkit-linear-gradient(#E52A6F, #5F0F4E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pageRow{
+  text-align: center;
+  font-size: 14px;
+  margin: 10px auto;
+}
+
+.pageRow a{
+  margin: 0 10px;
+  color: black;
+}
+
+.pageRow a:hover{
+  color: #B9AEFF;
+}
+
+nav h1 {
+  font-size: 30px;
+}
+/* MEDIA QUERIES */
+/* X-Small devices (portait phones, less than 576px) */
+/* All styles up to this point in the stylesheet are for X-Small */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    body { background-color: ; }
+    nav h1 {
+      font-size: 40px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body { background-color: ; }
+    .clubsBlock .clubdetail img {
+      display: block;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body { background-color: ; }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body { background-color: ; }
+}

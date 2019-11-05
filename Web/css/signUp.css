@@ -1,0 +1,149 @@
+.block {
+  margin: auto;
+  max-width: 1050px;
+  height: 100%;
+  border: 1px solid #969696;
+  background-color: #969696;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.block a{
+  color: blue;
+}
+
+.signUpBox{
+  margin: auto;
+  margin-top: 20px;
+  padding: 0;
+  max-width: 600px;
+  height: 550px;
+  Color: #FFFAF7;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  font-size: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.signUpBox h2{
+  padding-top: 30px;
+  font-size: 35px;
+}
+
+.signUpBox ul{
+  width: 100px;
+  text-align: left;
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+.signUpBox li{
+  margin-top: 20px;
+}
+
+.signUpBox form{
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 200px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.signUpBox input{
+  margin-top: 15px;
+  width: 150px;
+}
+
+input .checkbox{
+  width: 10px;
+}
+.signUpBox button{
+  width: 150px;
+  height: 80px;
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: #67AECA;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.signUpBox p{
+  margin: auto;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.signUpBox p a{
+  margin-left: 20px;
+}
+
+.contactBox {
+  background: white;
+  color: black;
+  height: 450px;
+  padding: 20px 0;
+}
+
+/* MEDIA QUERIES */
+/* X-Small devices (portait phones, less than 576px) */
+/* All styles up to this point in the stylesheet are for X-Small */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 440px) {
+    body { background-color: ; }
+
+    .signUpBox form{
+      width: 290px;
+    }
+
+    .signUpBox input{
+      margin-top: 15px;
+      width: auto;
+    }
+
+}
+
+@media (min-width: 576px) {
+    body { background-color: ; }
+
+    .signUpBox{
+      font-size: 18px;
+    }
+
+    .signUpBox form{
+      width: 300px;
+    }
+
+    .signUpBox input{
+      margin-top: 15px;
+      width: auto;
+    }
+
+    .signUpBox button{
+      width: 230px;
+      height: 50px;
+      font-size: 30px;
+    }
+
+    .signUpBox ul{
+      width: 200px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body { background-color: ; }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body { background-color: ; }
+}

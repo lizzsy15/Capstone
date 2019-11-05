@@ -1,0 +1,179 @@
+article table {
+  background-color: white;
+  max-height: 700px;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid;
+  margin:0;
+  max-width: inherit;
+}
+
+thead td {
+  padding: 10px 0;
+}
+
+tbody td {
+padding-left: 10px;
+text-align: left;
+}
+
+td .title{
+  max-width: 600px;
+}
+
+tbody tr {
+  line-height: 50px;
+}
+
+.EditButton{
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  border-radius : 10px;
+  border: none;
+  color: white;
+}
+
+.EditButton:hover {
+  background: linear-gradient(
+      to right, #E52A6F, #5F0F4E
+    );
+}
+
+.stickyPost {
+  border-left : 2px red solid;
+}
+
+.fa-map-pin{
+  margin-right: 10px;
+  transform: rotate(270deg);
+  color: red;
+}
+
+.middle{
+ padding-left: 30px;
+}
+
+.middleHead{
+padding-right: 70px;
+text-align: center;
+}
+
+.pageRow {
+  margin: 10px 30px;
+  text-align: right;
+}
+
+.pageRow a{
+  margin: 0 5px;
+}
+
+.makeAPost {
+  width: 200px;
+  font-size: 25px;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 0px 10px 20px 10px;
+}
+
+.makeAPost a{
+  color: white;
+}
+
+.makeAPost a:hover{
+  color: #B9AEFF;
+}
+
+.post_sort{
+  margin-top: 0;
+  justify-content: space-between;
+}
+
+.post_sort p{
+  margin-top: 13px;
+  font-size: 20px;
+}
+
+.post_sort select{
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 30px;
+}
+
+.sorting {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  margin-bottom: 0px;
+}
+
+.postBlock {
+  width: 100%;
+  height: 220px;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.postBlock form input{
+  margin-top: 5px;
+  width: 100%;
+}
+
+.postBlock form button{
+  width: 100px;
+  margin: 5px 0px 5px 200px;
+}
+
+.postBlock form .contentInput{
+  height:140px;
+  width: 100%;
+}
+
+.postBlock form .titleInput{
+  margin-top: 15px;
+}
+
+.selection{
+  font-size: 13px;
+}
+
+.selection a {
+  margin-right: 4px;
+}
+
+/* MEDIA QUERIES */
+/* X-Small devices (portait phones, less than 576px) */
+/* All styles up to this point in the stylesheet are for X-Small */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    body { background-color: ; }
+    .postBlock form button{
+      margin: 5px 10px 5px 462px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body { background-color: ; }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body { background-color: ; }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body { background-color: ; }
+}
