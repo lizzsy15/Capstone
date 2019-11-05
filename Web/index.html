@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>I360 Project3</title>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+		<!-- Font Awesome - For use in I360 -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+
+
+		<!--[if lte IE 9]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+		<![endif]-->
+	</head>
+
+	<body>
+		<!-- JavaScript -->
+
+
+		<!-- Navigation -->
+		<div class="container">
+		<nav>
+			<div class="container">
+				<div class="row">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg" alt="Riddle Joker"></a>
+					</div>
+					<h1>Echooo</h1>
+					<ul>
+						<li><div class="user">
+							<a href="#"><i class="fas fa-user"></i> Sign Up</a>
+							<a href="#"><i class="fas fa-user"></i> Login</a>
+						</div></li>
+						</li>
+							<div class="search-container">
+								<form action="#">
+									<input type="text" placeholder="Search.." name="search">
+									<button type="submit"><i class="fa fa-search"></i></button>
+								</form>
+							</div></li>
+					</ul>
+				</div>
+				<div class="bar">
+					<ul>
+						<li class="current"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+						<li><a href="#"><i class="fas fa-globe-americas"></i> What's New</a></li>
+						<li><a href="#"><i class="fas fa-users"></i> Boards</a></li>
+						<li><a href="#"><i class="fas fa-users"></i> Clubs</a></li>
+						<li><a href="#"><i class="fas fa-scroll"></i> News</a></li>
+						<li><a href="#"><i class="far fa-question-circle"></i> Help</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Header -->
+		<header>
+			<div class="content container">
+				<a href="#"><img class="mySlides" src="images/pic01.jpg" alt="COD"></a>
+				<a href="#"><img class="mySlides" src="images/pic02.jpg" alt="Kingdom Heart"></a>
+				<a href="#"><img class="mySlides" src="images/pic01.jpg" alt="PUBG"></a>
+				<a href="#"><img class="mySlides" src="images/pic02.jpg" alt="AAA"></a>
+			</div>
+		</header>
+
+		<script>
+
+		var myIndex = 0;
+		slideShow();
+
+		function slideShow() {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";
+		}
+		myIndex++;
+		if (myIndex > x.length) {myIndex = 1}
+		x[myIndex-1].style.display = "block";
+		setTimeout(slideShow, 3000);
+		}
+		</script>
+
+		<!-- Announcement-->
+		<article class="block">
+			<h1 class="sr-only">Announcement</h1>
+			<div class="box announ">
+				<h2>Announcement</h2>
+				<div class="innerBox announInner">
+					<a href="#"><h3>Red Dead Redemption 2 companion app points to PC version of the game</h3></a>
+					<p>Files inside Red Dead Redemption 2&rsquo;s companion app contain multiple references to PC,
+						graphics options and resolutions, according to a report, adding fuel to speculation that the game will eventually come to PC.</p>
+					<a href="#"><h3>Call of Cthulhu launch trailer lets you glimpse the horrors that lurk within</h3></a>
+					<p>The trailer, above, gives you a taste of some of the beasts, cultists and inter-dimensional ambiguity you&rsquo;ll face in the game,
+						which James described as a &ldquo;walking sim RPG with Ace-Attorney-lite detective sections&rdquo; after watching a live demonstration last year. </p>
+				</div>
+			</div>
+		</article>
+
+		<!-- Main -->
+    <article class="main">
+			<h1 class="sr-only">Main</h1>
+      <div class="container">
+        <section class="right">
+            <h2> Popular Boards </h2>
+						<div class="BoardBox">
+							<table>
+								<tr><td>Board</td><td>Posts</td></tr>
+								<tr><td><a href="#">Board 1</a></li></td><td>100</td></tr>
+								<tr><td><a href="#">Board 2</a></li></td><td>97</td></tr>
+								<tr><td><a href="#">Board 3</a></li></td><td>85</td></tr>
+								<tr><td><a href="#">Board 4</a></li></td><td>82</td></tr>
+								<tr><td><a href="#">Board 5</a></li></td><td>77</td></tr>
+							</table>
+							<div class="more"><a href="#">Find More</a></div>
+						</div>
+				</section>
+				<section>
+            <h2> Popular Clubs </h2>
+						<div class="BoardBox">
+							<ul>
+								<li><img src="images/club1.jpg" alt="club1"><a href="#">Club 1</a></li>
+								<li><img src="images/club2.jpg" alt="club2"><a href="#">Club 2</a></li>
+								<li><img src="images/club3.jpg" alt="club3"><a href="#">Club 3</a></li>
+								<li><img src="images/club4.jpg" alt="club4"><a href="#">Club 4</a></li>
+								<li><img src="images/club4.jpg" alt="club5"><a href="#">Club 5</a></li>
+							</ul>
+							<div class="more"><a href="#">Find More</a></div>
+						</div>
+        </section>
+      </div>
+    </article>
+
+		<!-- footer -->
+		<footer>
+			<div class="container">
+				<section class="footer-menu">
+					<h1 class="sr-only">Footer</h1>
+					<div class="row">
+						<div class="footer-menu-main">
+							<a href="#"><p>Home</p></a> <p class="line">|</p>
+							<a href="#"><p>Contact Us</p></a> <p class="line">|</p>
+							<a href="#"><p>Terms</p></a> <p class="line">|</p>
+						<div class="soical-media">
+							<a href="#"><i class="fab fa-facebook"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-discord"></i></a>
+						</div></div>
+					</div>
+				</section>
+			</div>
+		</footer>
+	</div>
+	</body>
+</html>

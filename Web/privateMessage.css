@@ -1,0 +1,189 @@
+.CenterPart{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.toprow{
+  display: flex;
+}
+
+.topImg{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 10px;
+  margin-top: 18px;
+}
+
+/* Chat room */
+.chatroom {
+  height: 600px;
+  flex: 2 0 50px;
+  background-color: white;
+  margin: 20px 0px 10px 10px;
+  border-radius: 10px;
+}
+
+.chatroom ul{
+  height: 500px;
+  list-style-type: none;
+  overflow-y: auto;
+}
+
+.chatroom li{
+  margin-bottom: 5px;
+}
+
+.chatroom li img{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.chatroom .chatDate{
+  font-size: 12px;
+}
+
+.otherUser{
+  text-align:left;
+}
+
+.mainUser{
+  text-align:right;
+  margin-right: 20px;
+}
+
+.messageLine{
+  max-width: 200px;
+  background: #67AECA;
+  margin-left: 30px;
+  padding: 2px 10px;
+  border-radius: 10px;
+  text-align:left;
+}
+
+.messageLineMain{
+  max-width: 200px;
+  background: #67AECA;
+  margin-left: 210px;
+  padding: 2px 10px;
+  border-radius: 10px;
+  text-align:right;
+}
+
+.mainUser .messageLine{
+  margin-left: 250px;
+}
+
+.chatroom form {
+  display: flex;
+}
+
+textarea {
+  width: 450px;
+  height: 70px;
+  margin-left: 20px;
+}
+
+.chatroom form button {
+  width: 100px;
+  height: 70px;
+  font-size: 30px;
+  Color: #FFFAF7;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+}
+
+/* Member List */
+
+.memberList {
+  height: 600px;
+  flex: 1 0 50px;
+  background-color: white;
+  margin: 20px 0 10px 0;
+  font-size: 18px;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.memberList h1 {
+  font-size: 32px;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+    margin-top: 0;
+}
+
+.memberList li img{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.memberList ul {
+  list-style-type: none;
+  padding-left:0;
+}
+
+.memberList li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height:40px;
+  padding:10px 10px 10px 20px;
+  margin:10px auto;
+}
+
+.memberList li:hover{
+  background-color: lightgrey;
+}
+.memberList li .groupTogether{
+  margin-left: 10px;
+}
+
+.memberList li .status{
+  color: blue;
+  margin-right: 40px;
+}
+
+.memberList li .statusOff{
+  color: grey;
+  margin-right: 40px;
+}
+
+.userOnList {
+  text-align:left;
+  margin-bottom: 20px;
+}
+
+.editClubLink {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+
+.editClubLink:hover{
+  color:white;
+  background: linear-gradient(
+      to right, #E52A6F, #5F0F4E
+    );
+}
+
+chatroom, current{
+cursor: not-allowed;
+}
