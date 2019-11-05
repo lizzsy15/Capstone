@@ -1,0 +1,59 @@
+h2 {
+  text-align: left;
+  padding-bottom: 20px;
+  margin-left: 30px;
+}
+
+.infoBlock form{
+  text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.infoBlock form p{
+  padding-bottom: 30px;
+
+}
+
+.infoBlock form a{
+  margin-left: 50px;
+}
+
+.infoBlock .row{
+  flex-direction: column;
+}
+
+.row h3{
+  text-align: left;
+}
+.in3 {
+  margin-left: 350px;
+}
+
+article .block{
+  height: 100%;
+  min-height:670px;
+  padding: 10px 50px;
+}
+
+.block img{
+  height: 30px;
+  width: 30px;
+  margin: 0 10px;
+}
+
+table{
+  width: 100%;
+  margin: 10px 0;
+}
+
+table tr{
+  height: 100px;
+  width: 100%;
+}
+
+table td{
+  height: 100%;
+  width: 100%;
+  border-bottom: black solid 0.5px;
+}

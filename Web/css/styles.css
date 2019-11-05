@@ -1,0 +1,331 @@
+
+/* natural box model */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Browser Upgrade Prompt */
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* hides an element, but not from screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* no break */
+.nobr {
+    white-space: nowrap;
+}
+
+/*
+    STRUCTURE
+*/
+
+body, html {
+  color: black;
+  height: 100%;
+  background-color: #F6F6F6;
+  font-family: 'Arial';
+}
+
+.container {
+  max-width: 1050px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 0.5em;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+  color: black;
+}
+
+a:active, a:hover {
+  color: #B9AEFF;
+}
+
+.more{
+  font-size: 15px;
+  text-align:right;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.current{
+  /*background-color: #400073; */
+}
+/*
+    NAVIGATION
+*/
+
+.logo img {
+  width: 50px;
+  height: 60px;
+  /*position: relative;
+  float: left;*/
+  top: 10px;
+  left: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+  align-self: center;
+}
+
+nav .user {
+  position: relative;
+  float: right;
+}
+
+
+nav .user a{
+  margin: 15px;
+}
+
+nav{
+    text-align:center;
+}
+nav h1 {
+  font-size: 40px;
+  margin-top: 40px;
+  position:relative;
+  color: #9049DE;
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 0;
+  margin-right: 30px;
+}
+
+nav .container {
+  margin-top: 0px;
+    padding: 0 0 1em 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav .bar ul {
+  margin: 0;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  border-radius: 10px;
+  flex-wrap:wrap;
+}
+
+nav .bar ul li {
+  list-style-type: none;
+  padding: 15px 10px;
+  font-size: 15px;
+}
+
+nav .bar ul li a {
+  text-decoration: none;
+  font-weight: normal;
+  color: white;
+}
+
+nav .bar ul li:hover {
+  text-decoration: underline;
+}
+
+nav .bar ul li .fas:hover, nav .bar ul li .far:hover{
+  background: -webkit-linear-gradient(#E52A6F, #5F0F4E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav .bar ul li a:hover{
+  background: -webkit-linear-gradient(#E52A6F, #5F0F4E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav .search-container {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.search-container ul {
+  margin-left: 0;
+}
+
+.search-container input{
+}
+nav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  width:150px;
+}
+
+nav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 21px;
+  border: none;
+  cursor: pointer;
+}
+
+nav .search-container button:hover {
+  background: #ccc;
+}
+/* HEADER SlideShow*/
+
+header .mySlides{
+  display: none;
+  width: 100%;
+  max-width:1035px;
+}
+
+header .content {
+  /* margin-left:auto; */
+  /* margin-right:auto;*/
+  max-width:1050px;
+}
+
+header .container {
+  padding:0.01em 0px;
+  margin-bottom: 30px;
+}
+
+
+/* FOOTER */
+footer .container{
+  padding: 0px 20px;
+}
+
+.footer-menu {
+  padding: 3px;
+}
+.footer-menu-main, .footer-menu-sub {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footer-menu-main p {
+  font-size: 16px;
+}
+
+.footer-menu-sub a:link, .footer-menu-sub a:visited {
+  color: #909090;
+}
+.footer-menu-sub a:active, .footer-menu-sub a:hover {
+  color: #FAF1E0;
+}
+
+footer .line {
+  color: #9164FA;
+  padding: 0 0.5em;
+}
+
+footer .soical-media{
+  display: flex;
+  flex-flow:row;
+  justify-content: flex-end;
+}
+
+.soical-media a{
+  padding: 17px 0px 0;
+  margin-right:10px;
+}
+/*
+    TYPOGRAPHY
+*/
+
+/* clearfix - in case you decide to float elements */
+.group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pageRow a{
+  margin: 0 10px;
+  color: black;
+}
+
+.pageRow a:hover{
+  color: #B9AEFF;
+}
+
+/* MEDIA QUERIES */
+/* X-Small devices (portait phones, less than 576px) */
+/* All styles up to this point in the stylesheet are for X-Small */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 367px) {
+    body { background-color: ; }
+    nav input[type=text] {
+      width:200px;
+    }
+
+}
+
+@media (min-width: 576px) {
+    body { background-color: ; }
+    nav h1 {
+    }
+    nav .bar ul {
+      padding: 0 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body { background-color: ; }
+    .logo img {
+      width: 71.3px;
+      height: 81.5px;
+    }
+    nav h1 {
+      margin-bottom: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body { background-color: ; }
+    nav h1 {
+      font-size: 45px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body { background-color: ; }
+}

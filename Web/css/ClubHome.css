@@ -1,0 +1,70 @@
+
+.block h1{
+  text-align: left;
+}
+.block img{
+  width: 200px;
+  height: 200px;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.block p{
+  margin: 20px 0 10px 30px;
+}
+.something{
+  width: 80%;
+}
+
+.interBlock{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.question, .ans{
+}
+
+.block a{
+  margin: auto;
+  padding: 7px 10px;
+  height: 550px;
+  Color: #FFFAF7;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+/* MEDIA QUERIES */
+/* X-Small devices (portait phones, less than 576px) */
+/* All styles up to this point in the stylesheet are for X-Small */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    body { background-color: ; }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body { background-color: ; }
+    .logo img {
+      display: block;
+    }
+    .block a{
+      margin-left: 500px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body { background-color: ; }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body { background-color: ; }
+}

@@ -1,0 +1,74 @@
+.block {
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+}
+
+.block p{
+  padding: 30px 20px 10px 50px;
+  text-align: left;
+}
+
+.block .ans{
+  text-align: left;
+  margin-bottom: 20px;
+  text-decoration:underline;
+}
+.block h1{
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* inside box */
+
+.interBlock {
+  margin: 0 0;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.return{
+  text-align:left;
+  padding: 0;
+  margin:0;
+  margin-bottom: 5px;
+}
+/* MEDIA QUERIES */
+/* X-Small devices (portait phones, less than 576px) */
+/* All styles up to this point in the stylesheet are for X-Small */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 367px) {
+    body { background-color: ; }
+    .block p{
+      padding: 30px 50px 10px 20px;
+    }
+
+}
+
+@media (min-width: 576px) {
+    body { background-color: ; }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body { background-color: ; }
+    .block p{
+      padding: 30px 150px 10px 200px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body { background-color: ; }
+}

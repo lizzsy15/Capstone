@@ -1,0 +1,242 @@
+.CenterPart{
+  display: flex;
+  flex-flow: row wrap;
+}
+/* Club Describe */
+.clubDescribe {
+  width:500px;
+  height: 100%;
+  min-height: 200px;
+  background-color: white;
+  margin: 20px 10px 10px 0;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.clubDescribe img {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+  border: 1px black solid;
+}
+
+.clubDescribe h1 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.clubDescribe p {
+  font-size: 14px;
+  margin-left: 20px;
+}
+/* Chat room */
+.chatroom {
+  height: 600px;
+  width: 100%;
+  max-width: 510px;
+  background-color: white;
+  margin: 20px 10px 10px 0;
+}
+
+.chatroom ul{
+  height: 500px;
+  list-style-type: none;
+  overflow-y: auto;
+}
+
+.chatroom li{
+  margin-bottom: 5px;
+}
+
+.chatroom li img{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.chatroom .chatDate{
+  font-size: 12px;
+}
+
+.otherUser{
+  text-align:left;
+}
+
+.mainUser{
+  text-align:right;
+  margin-right: 20px;
+}
+
+.messageLine{
+  max-width: 200px;
+  background: #67AECA;
+  margin-left: 30px;
+  padding: 2px 10px;
+  border-radius: 10px;
+  text-align:left;
+}
+
+.messageLineMain{
+  max-width: 200px;
+  background: #67AECA;
+  margin-left: 210px;
+  padding: 2px 10px;
+  border-radius: 10px;
+  text-align:right;
+}
+
+.mainUser .messageLine{
+  margin-left: 250px;
+}
+
+.chatroom form {
+  display: flex;
+}
+
+textarea {
+  width: 350px;
+  height: 70px;
+  margin-left: 20px;
+}
+
+.chatroom form button {
+  width: 100px;
+  height: 70px;
+  font-size: 30px;
+  Color: #FFFAF7;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+}
+
+/* Member List */
+
+.memberList {
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  margin: 20px 0 10px 0;
+  overflow-y: auto;
+  font-size: 18px;
+}
+
+.memberList h1 {
+  font-size: 32px;
+}
+
+.memberList li img{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.memberList ul {
+  list-style-type: none;
+}
+
+.memberList li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.memberList li .groupTogether{
+  margin-left: 10px;
+}
+
+.memberList li .status{
+  color: blue;
+  margin-right: 40px;
+}
+
+.memberList li .statusOff{
+  color: grey;
+  margin-right: 40px;
+}
+
+.userOnList {
+  text-align:left;
+  margin-bottom: 20px;
+}
+
+.editClubLink {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+
+.editClubLink:hover{
+  color:white;
+  background: linear-gradient(
+      to right, #E52A6F, #5F0F4E
+    );
+}
+
+#chatroom, #current{
+cursor: not-allowed;
+}
+
+/* MEDIA QUERIES */
+/* X-Small devices (portait phones, less than 576px) */
+/* All styles up to this point in the stylesheet are for X-Small */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    body { background-color: ; }
+    .chatroom {
+      height: 600px;
+      width: 400px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body { background-color: ; }
+    .logo img {
+      display: block;
+    }
+    .memberList {
+      height: 600px;
+      max-width: 300px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body { background-color: ; }
+    .clubDescribe {
+      max-width:200px;
+      height: 400px;
+    }
+    .memberList {
+      height: 600px;
+      min-width: 300px;
+    }
+    .chatroom {
+      height: 600px;
+      width: 510px;
+    }
+    .chatroom form input {
+      width: 350px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body { background-color: ; }
+}

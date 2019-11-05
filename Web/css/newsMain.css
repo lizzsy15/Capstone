@@ -1,0 +1,126 @@
+.block h1 {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.block img{
+  width: 30%;
+  height: 30%;
+}
+
+.article{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px 20px;
+}
+
+.title p{
+  margin-left: 20px;
+  text-align: left;
+}
+
+.title a{
+  font-size: 25px;
+  color: black;
+}
+
+.remove a{
+  font-size: 15px;
+}
+
+.title a:hover{
+  color: #B9AEFF;
+}
+
+.block{
+  height: 1030px;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+}
+
+.pageRow a{
+  margin: 0 10px;
+  color: black;
+}
+
+.pageRow a:hover{
+  color: #B9AEFF;
+}
+
+/* inside box */
+
+.interBlock {
+  margin: 0 0;
+  background-color: #FFFFFF;
+  padding-top: 10px;
+  height: 930px;
+}
+
+.functionbutton{
+
+  font-size: 15px;
+  margin-top:10px;
+  padding: 10px 5px;
+  background: linear-gradient(
+      to right, #67AECA, #675682
+    );
+  height: 100%;
+  border-radius: 15px;
+}
+
+.functionbutton:hover{
+  background: linear-gradient(
+      to right, #E52A6F, #5F0F4E
+    );
+}
+.functionbutton a{
+  text-decoration: none;
+    color: white;
+}
+
+.interBlock{
+  height: 100%;
+}
+
+.block{
+  height: 100%;
+}
+
+/* MEDIA QUERIES */
+/* X-Small devices (portait phones, less than 576px) */
+/* All styles up to this point in the stylesheet are for X-Small */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 367px) {
+    body { background-color: ; }
+
+    .block h1 {
+      font-size: 36px;
+    }
+}
+
+@media (min-width: 576px) {
+    body { background-color: ; }
+    .functionbutton{
+
+      margin-right: 10px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body { background-color: ; }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body { background-color: ; }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body { background-color: ; }
+}
